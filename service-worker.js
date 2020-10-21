@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/sicredi-sistemas/precache-manifest.8b2a01ce5354cf1643052dbaa4fc70a7.js"
+  "/sicredi-sistemas/precache-manifest.94356c7bb3ac149b44e86c277ca32e7d.js"
 );
 
 self.addEventListener('message', (event) => {
