@@ -1,31 +1,213 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+
 }
 
 .App-logo {
-  height: 40vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 3s linear;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
+  font-family: 'Exo 2', sans-serif;
+  background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );
+}
+
+.container-end{
   display: flex;
-  flex-direction: column;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+.container-title{
+  display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  margin-right: 40px;  
+}
+
+
+
+.App-type {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  color: #3aaa36;
+}
+
+.App-type-mini {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #3aaa36;
+}
+.App-header {
+  height:  20vh;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
+.container{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.container-checkbox{
+  margin-right: 10px;
+  color: #3aaa36;
+}
+
+
+.container-filter{
+  display: flex;
+}
+.link-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.title{
+  font-size: 40px;
+  margin: 20px 0px;
+  color: #3aaa36;
+}
+
+header{
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+
+li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 150px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.container-icons{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 30px;
+  width: 100%;
+  margin-left: 10px;
+}
+
+.item-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: #deeddd;
+  border-radius: 10px;
+  transition: background-color 0.5s ease-in-out;
+  border: solid #fff 1px   ;  
+  -webkit-box-shadow: 9px 4px 22px -10px rgba(0,0,0,0.74);
+-moz-box-shadow: 9px 4px 22px -10px rgba(0,0,0,0.74);
+box-shadow: 9px 4px 22px -10px rgba(0,0,0,0.74);
+  
+}
+
+.item-logo-vpn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: #deeddd;
+  border-radius: 10px;
+  transition: background-color 0.5s ease-in-out;
+  border: solid #ff0000 1px   ;  
+  -webkit-box-shadow: 9px 4px 22px -10px rgba(0,0,0,0.74);
+-moz-box-shadow: 9px 4px 22px -10px rgba(0,0,0,0.74);
+box-shadow: 9px 4px 22px -10px rgba(0,0,0,0.74);
+  
+}
+
+
+
+.item-logo:hover{
+  background-color:  #3aaa36;
+  cursor: pointer;
+}
+
+.item-text{
+  text-align: center;
+  margin-top: 5px;
+  color: #fff
+}
+
+a{
+  text-decoration: none;
+  list-style: none;
+}
+
+a:visited{
+  color: #fff;
+}
+
+.item-logo img{
+  margin-top: 35px;
+  height: 20px;
+}
+
+.App-text {
+  height: 80px;
+}
+
+.search-bar{
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  margin: 0 20px 0px 20px;
+  border: solid 1px #f0f0f0;
+  max-width: 800px;
+  margin-top: 40px;
+  border-radius: 5px;
+  padding: 5px;
+  padding-right: 25px;
+}
+
+.input-search{
+  border: 0;
+  height: 100%;
+  width: 95%;
+  outline: none;
+  font-size: 18px;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: normal;
+  color: #313233;
+
+}
+
+.icon:hover{
+  color: '#fff'
 }
 
 @keyframes App-logo-spin {
