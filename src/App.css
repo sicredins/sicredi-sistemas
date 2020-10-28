@@ -1,7 +1,9 @@
+@font-face { font-family: Exo2; src: url('./fonts/static/Exo2-BoldItalic.ttf'); } 
+@font-face { font-family: Exo2; src: url('./fonts/static/Exo2-SemiBoldItalic.ttf'); } 
+ 
 .App {
   display: flex;
   flex-direction: column;
-
 }
 
 .App-logo {
@@ -15,7 +17,7 @@
 }
 
 body{
-  font-family: 'Exo 2', sans-serif;
+  font-family: Exo2, sans-serif;
   background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );
 }
 
@@ -33,16 +35,23 @@ body{
 }
 
 
+.index-item-container{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  font-size: 20px;
+  color: #fff
+}
 
 .App-type {
-  font-family: 'Exo 2', sans-serif;
+  font-family: Exo2, sans-serif;
   font-weight: 700;
   font-size: 80px;
   color: #3aaa36;
 }
 
 .App-type-mini {
-  font-family: 'Exo 2', sans-serif;
+  font-family: Exo2, sans-serif;
   font-weight: 700;
   font-size: 30px;
   color: #3aaa36;
@@ -92,6 +101,18 @@ header{
   color: #61dafb;
 }
 
+.modal-container{
+  background-color: #fff;
+  width: 300px;
+  height: 80px;
+  border-radius: 5px;
+  padding: 20px ;
+  background-color: #a0a6b0; 
+}
+
+.index-container{
+  margin: 40px 0 0 20px;
+}
 
 li {
   display: flex;
@@ -102,7 +123,7 @@ li {
   height: 150px;
   margin: 10px;
   border-radius: 10px;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .container-icons{
@@ -151,7 +172,7 @@ box-shadow: 9px 4px 22px -10px rgba(0,0,0,0.74);
 
 
 .item-logo:hover{
-  background-color:  #3aaa36;
+  background-color:  #f4e4bc;
   cursor: pointer;
 }
 
@@ -172,7 +193,7 @@ a:visited{
 
 .item-logo img{
   margin-top: 35px;
-  height: 20px;
+  max-height: 20px;
 }
 
 .App-text {
@@ -200,7 +221,7 @@ a:visited{
   width: 95%;
   outline: none;
   font-size: 18px;
-  font-family: 'Exo 2', sans-serif;
+  font-family: Exo2, sans-serif;
   font-weight: normal;
   color: #313233;
 
