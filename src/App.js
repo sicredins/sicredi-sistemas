@@ -26,7 +26,7 @@ let links = [
   },
   {
     name: "PLD",
-    url: "googlechrome://pld.sicredi.net/",
+    url: "http://pld.sicredi.net/",
     coop: false,
     cola: false,
     safari: false,
@@ -157,7 +157,7 @@ let links = [
   },
   {
     name: "ANALYZER",
-    url: "googlechrome://pfc.sicredi.com.br",
+    url: "http://pfc.sicredi.com.br",
     coop: false,
     cola: false,
     safari: false,
@@ -168,7 +168,7 @@ let links = [
   },
   {
     name: "SISTEMAS HGV",
-    url: "googlechrome://sistemashgv.sicredi.net",
+    url: "http://sistemashgv.sicredi.net",
     coop: false,
     cola: false,
     safari: false,
