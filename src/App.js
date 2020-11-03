@@ -47,7 +47,7 @@ let links = [
   },
   {
     name: "REGISTRO E ACERTO DE PONTO",
-    url: "googlechrome://gestaoponto.sicredi.com.br/user/register/today-working",
+    url: "googlechromes://gestaoponto.sicredi.com.br/",
     coop: true,
     cola: true,
     safari: true,

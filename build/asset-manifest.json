@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/sicredi-sistemas/static/css/main.20627187.chunk.css",
-    "main.js": "/sicredi-sistemas/static/js/main.e38d8440.chunk.js",
-    "main.js.map": "/sicredi-sistemas/static/js/main.e38d8440.chunk.js.map",
-    "runtime-main.js": "/sicredi-sistemas/static/js/runtime-main.5c7f1283.js",
-    "runtime-main.js.map": "/sicredi-sistemas/static/js/runtime-main.5c7f1283.js.map",
-    "static/js/2.7035dd7e.chunk.js": "/sicredi-sistemas/static/js/2.7035dd7e.chunk.js",
-    "static/js/2.7035dd7e.chunk.js.map": "/sicredi-sistemas/static/js/2.7035dd7e.chunk.js.map",
-    "index.html": "/sicredi-sistemas/index.html",
-    "precache-manifest.e37a8bc517adc0096edc53bab7249a84.js": "/sicredi-sistemas/precache-manifest.e37a8bc517adc0096edc53bab7249a84.js",
-    "service-worker.js": "/sicredi-sistemas/service-worker.js",
-    "static/css/main.20627187.chunk.css.map": "/sicredi-sistemas/static/css/main.20627187.chunk.css.map",
-    "static/js/2.7035dd7e.chunk.js.LICENSE.txt": "/sicredi-sistemas/static/js/2.7035dd7e.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/sicredi-sistemas/static/media/Exo2-SemiBoldItalic.abd4409b.ttf",
-    "static/media/logo.svg": "/sicredi-sistemas/static/media/logo.1be55c06.svg"
+    "main.css": "/static/css/main.84bdfbaa.chunk.css",
+    "main.js": "/static/js/main.47611512.chunk.js",
+    "main.js.map": "/static/js/main.47611512.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3c22ff83.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3c22ff83.js.map",
+    "static/js/2.7035dd7e.chunk.js": "/static/js/2.7035dd7e.chunk.js",
+    "static/js/2.7035dd7e.chunk.js.map": "/static/js/2.7035dd7e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c8b3bdee53be7b908b656776b2bd15e9.js": "/precache-manifest.c8b3bdee53be7b908b656776b2bd15e9.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.84bdfbaa.chunk.css.map": "/static/css/main.84bdfbaa.chunk.css.map",
+    "static/js/2.7035dd7e.chunk.js.LICENSE.txt": "/static/js/2.7035dd7e.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/Exo2-SemiBoldItalic.abd4409b.ttf",
+    "static/media/logo.svg": "/static/media/logo.1be55c06.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5c7f1283.js",
+    "static/js/runtime-main.3c22ff83.js",
     "static/js/2.7035dd7e.chunk.js",
-    "static/css/main.20627187.chunk.css",
-    "static/js/main.e38d8440.chunk.js"
+    "static/css/main.84bdfbaa.chunk.css",
+    "static/js/main.47611512.chunk.js"
   ]
 }
