@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "069719c2ea463c39d24652af4f39de73",
+    "revision": "1a8130cf78114d7685ef64030cc66f64",
     "url": "/index.html"
   },
   {
-    "revision": "304f32c543208edf111b",
+    "revision": "c6874c8ec88bd06dc19b",
     "url": "/static/css/main.84bdfbaa.chunk.css"
   },
   {
-    "revision": "aaa9f6c3dbe41110b64c",
-    "url": "/static/js/2.64e6c442.chunk.js"
+    "revision": "b7eb3c0b3a741969ab34",
+    "url": "/static/js/2.65bba3e0.chunk.js"
   },
   {
     "revision": "570d362d673dab785e62d2b8563e1118",
-    "url": "/static/js/2.64e6c442.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.65bba3e0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "304f32c543208edf111b",
-    "url": "/static/js/main.e931ac40.chunk.js"
+    "revision": "c6874c8ec88bd06dc19b",
+    "url": "/static/js/main.b78ed970.chunk.js"
   },
   {
     "revision": "867ae4c5de52b42334e9",
@@ -46,5 +46,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1b7103de2de86ca00de1f1783e330321",
     "url": "/static/media/placecon.1b7103de.png"
+  },
+  {
+    "revision": "225aa6ddd7d39f3b425ad02a8833bb40",
+    "url": "/static/media/sicredi-logo-item.225aa6dd.png"
   }
 ]);

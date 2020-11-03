@@ -7,7 +7,7 @@ import fluidLogo from './assets/fluid.png'
 import placeconLogo from './assets/placecon.png'
 import whatsappLogo from './assets/whatsapp.png'
 import cetipLogo from './assets/cetip.png'
-
+import sicrediLogo from  './assets/sicredi-logo-item.png'
 
 let links = [
   {
@@ -394,7 +394,7 @@ function App() {
                             item.logo !== null ?
                               <img src={item.logo} />
                               :
-                              <img src="https://logodownload.org/wp-content/uploads/2017/11/sicredi-logo.png" />
+                              <img src={sicrediLogo} />
 
                           }
                           <div className="container-icons">
@@ -425,7 +425,7 @@ function App() {
                             item.logo !== null ?
                               <img src={item.logo} />
                               :
-                              <img src="https://logodownload.org/wp-content/uploads/2017/11/sicredi-logo.png" />
+                              <img src={sicrediLogo} />
 
                           }
                           <div className="container-icons">
@@ -455,7 +455,7 @@ function App() {
                             item.logo !== null ?
                               <img src={item.logo} />
                               :
-                              <img src="https://logodownload.org/wp-content/uploads/2017/11/sicredi-logo.png" />
+                              <img src={sicrediLogo} />
 
                           }
                           <div className="container-icons">
