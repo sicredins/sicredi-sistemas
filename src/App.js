@@ -103,7 +103,7 @@ let links = [
     safari: true,
     chrome: true,
     vpn: false,
-    logo: "http://www.fluidnow.com.br//wp-content/uploads/2015/10/fluid.png"
+    logo: "https://www.fluidnow.com.br//wp-content/uploads/2015/10/fluid.png"
   },
   {
     name: "CONSÓRCIOS",
