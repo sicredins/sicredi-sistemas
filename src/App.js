@@ -239,11 +239,11 @@ let links = [
   },
   {
     name: "WHATSAPP ENTERPRISE",
-    url: "googlechromes://plataforma.ubots.com.br/Sicredi",
+    url: "https://plataforma.ubots.com.br/Sicredi",
     coop: true,
     cola: true,
     safari: true,
-    chrome: true,
+    chrome: false,
     vpn: false,
     logo: "https://ubots.com.br/wp-content/uploads/2018/03/logo-branco-367px.png"
   },
