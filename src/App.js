@@ -2,6 +2,12 @@ import React, { useState, useEffect } from 'react';
 import logo from './assets/logo.svg';
 import { FaChrome, FaSafari, FaSearch } from 'react-icons/fa';
 import './App.css';
+import docusignLogo from './assets/docusign.svg'
+import fluidLogo from './assets/fluid.png'
+import placeconLogo from './assets/placecon.png'
+import whatsappLogo from './assets/whatsapp.png'
+import cetipLogo from './assets/cetip.png'
+
 
 let links = [
   {
@@ -93,7 +99,7 @@ let links = [
     safari: true,
     chrome: true,
     vpn: false,
-    logo: "https://www.docusign.com.br/themes/custom/cubic/patternLibraryAssets/images/logos/logo-main.svg"
+    logo: docusignLogo
   },
   {
     name: "FLUID",
@@ -103,7 +109,7 @@ let links = [
     safari: true,
     chrome: true,
     vpn: false,
-    logo: "https://www.fluidnow.com.br//wp-content/uploads/2015/10/fluid.png"
+    logo: fluidLogo
   },
   {
     name: "CONSÓRCIOS",
@@ -205,7 +211,7 @@ let links = [
     safari: true,
     chrome: true,
     vpn: false,
-    logo: "https://placecon.com.br/auth/assets/images/logo_dark.png"
+    logo: placeconLogo
   },
   {
     name: "USD",
@@ -245,7 +251,7 @@ let links = [
     safari: true,
     chrome: false,
     vpn: false,
-    logo: "https://ubots.com.br/wp-content/uploads/2018/03/logo-branco-367px.png"
+    logo: whatsappLogo
   },
   {
     name: "CETIP",
@@ -255,7 +261,7 @@ let links = [
     safari: true,
     chrome: true,
     vpn: false,
-    logo: "https://i.imgur.com/tJvUHmN.png"
+    logo: cetipLogo
   }
 ]
 
